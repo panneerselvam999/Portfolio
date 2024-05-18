@@ -11,11 +11,11 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full   border-b-[1px] border-b-black"
+      className="w-full   border-b-[1px] border-b-black py-20"
     >
       <Title title={"Features"} des={"What i do"} />
 
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-3 gap-20 pb-5">
         <Card title={"Business Stratagy"} icon={<HiMiniBars4 />} des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad" />
         <Card title={"AiFillAppstore"} icon={<AiFillAppstore />} des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad" />
         <Card title={"SiProgress"} icon={<SiProgress />} des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad" />

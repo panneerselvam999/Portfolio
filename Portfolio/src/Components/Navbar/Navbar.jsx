@@ -20,8 +20,8 @@ const Navbar = () => {
                 to={link}
                 spy={true}
                 smooth={true}
-                offset={-80}
-                duration={500}
+                offset={-50}
+                duration={500} 
               >
                 {title}
               </Link>
