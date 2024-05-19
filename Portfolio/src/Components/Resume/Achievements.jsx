@@ -1,9 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 import ResumeCard from "./ResumeCard";
 
 const Achievements = () => {
   return (
-    <div className="flex justify-between gap-10">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }} className="flex justify-between gap-10">
       <div className=" w-1/2">
         <div className="py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
@@ -56,7 +60,7 @@ const Achievements = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

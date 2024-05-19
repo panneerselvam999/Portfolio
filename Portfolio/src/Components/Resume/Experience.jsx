@@ -1,15 +1,18 @@
-import React from 'react'
-import ResumeCard from './ResumeCard'
+import React from "react";
+import { motion } from "framer-motion";
+
+import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
   return (
-
-    <div className="flex justify-between gap-10">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="flex justify-between gap-10"
+    >
       <div className=" w-1/2">
         <div className="py-12 font-titleFont">
-          <p className="text-sm text-designColor tracking-[4px]">
-            1998 - 2010
-          </p>
+          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
           <h2 className="text-4xl font-bold">Experience</h2>
         </div>
         <div className=" mt-14  h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 ">
@@ -35,9 +38,7 @@ const Experience = () => {
       </div>
       <div className="w-1/2">
         <div className="py-12 font-titleFont">
-          <p className="text-sm text-designColor tracking-[4px]">
-            1998 - 2010
-          </p>
+          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
           <h2 className="text-4xl font-bold">Experience</h2>
         </div>
         <div className=" mt-14  h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 ">
@@ -61,8 +62,8 @@ const Experience = () => {
           />
         </div>
       </div>
-    </div>
-  )
-}
+    </motion.div>
+  );
+};
 
-export default Experience
+export default Experience;
