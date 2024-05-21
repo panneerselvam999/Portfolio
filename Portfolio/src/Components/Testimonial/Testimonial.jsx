@@ -5,7 +5,6 @@ import { testimonialOne, testimonialTwo, quote } from "../../assets/index.js";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 
-
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
