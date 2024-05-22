@@ -59,7 +59,7 @@ const Contact = () => {
             subjectRef.current.value = "";
             messageRef.current.value = "";
         }
-        console.log("Hellow");
+      
     };
     return (
         <section
