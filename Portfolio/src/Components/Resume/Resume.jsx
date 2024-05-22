@@ -22,13 +22,13 @@ const Resume = () => {
         <Title title={"Front-end Developer"} des={"My Resume"} />
       </div>
       <div>
-        <ul className="flex">
+        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
           {sections.map((section) => (
             <li
               key={section.name}
               className={` ${section.name === activeSection
-                  ? "border-designColor"
-                  : "border-transparent"
+                ? "border-designColor"
+                : "border-transparent"
                 }  resumeLi`}
               onClick={() => setActiveSection(section.name)}
             >
