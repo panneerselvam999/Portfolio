@@ -12,7 +12,7 @@ const LeftBanner = () => {
     });
     return (
         <>
-            <div className="w-1/2 flex flex-col gap-20">
+            <div className="w-full  lgl:w-1/2 flex flex-col gap-20">
                 <div className=" flex flex-col gap-5">
                     <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
                     <h1 className="text-6xl font-bold text-white ">
@@ -31,7 +31,7 @@ const LeftBanner = () => {
                     </p>
                 </div>
 
-                <div className="flex justify-between">
+                <div className="flex flex-col gap-6 md:flex-row md:justify-start md:gap-20 lgl:flex-col lgl:gap-10 xl:flex-row justify-between">
                     <div>
                         <h2 className="text-base uppercase font-titleFont mb-4">
                             Find me in
