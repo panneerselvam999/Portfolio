@@ -11,8 +11,8 @@ export default {
         mdl: "768px",
         lg: "960px",
         lgl: "1024px",
-        xl: "1280px",
-      },
+        xl: "1280px", 
+      },  
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
