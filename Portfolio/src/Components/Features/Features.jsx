@@ -15,7 +15,7 @@ const Features = () => {
     >
       <Title title={"Features"} des={"What i do"} />
 
-      <div className="grid grid-cols-3 gap-20 pb-5">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-20 pb-5">
         <Card title={"Business Stratagy"} icon={<HiMiniBars4 />} des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad" />
         <Card title={"AiFillAppstore"} icon={<AiFillAppstore />} des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad" />
         <Card title={"SiProgress"} icon={<SiProgress />} des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad" />

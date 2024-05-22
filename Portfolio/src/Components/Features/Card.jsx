@@ -17,7 +17,7 @@ const Card = ({ title, icon, des }) => {
               {title}
             </h2>
             <p className=" base ">{des}</p>
-            <span className="text-2xl text-designColor w-6 hover:translate-x-4 transition-transform duration-300 ">
+            <span className=" text-xl  md:text-2xl text-designColor w-6 hover:translate-x-4 transition-transform duration-300 ">
               <HiArrowRight />
             </span>
             {/* <span className="text-2xl text-designColor relative">
