@@ -59,7 +59,6 @@ const Contact = () => {
             subjectRef.current.value = "";
             messageRef.current.value = "";
         }
-      
     };
     return (
         <section
@@ -68,9 +67,9 @@ const Contact = () => {
         >
             <Title title={"Contact"} des={"Contact with me"} />
 
-            <div className="w-full">
-                <div className="w-full h-auto flex justify-between">
-                    <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+            <div className="w-full ">
+                <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+                    <div className=" w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
                         <img
                             className="w-full h-64 object-cover rounded-lg mb-3"
                             src={contactImg}
@@ -107,16 +106,14 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[60%] h-auto  py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-8 rounded-lg shadow-shadowOne ">
-                        <form className="w-full h-full flex flex-col justify-between">
-                            {/* {error && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
-                  {error}
-                </p>
-              )} */}
 
-                            <div className="flex gap-10">
-                                <div className="w-1/2 flex flex-col">
+
+                    <div className=" w-full  lgl:w-[60%] h-auto  py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-8 rounded-lg shadow-shadowOne ">
+                        <form className="w-full h-full flex flex-col gap-5 justify-between">
+
+
+                            <div className="flex flex-col lgl:flex-row gap-5 lgl:gap-10">
+                                <div className="w-full lgl:w-1/2 flex flex-col">
                                     <label
                                         className="contactLable mb-5 outline-designColor"
                                         htmlFor="name"
@@ -125,12 +122,13 @@ const Contact = () => {
                                     </label>
                                     <input
                                         ref={nameRef}
-                                        className={`${(error == "Name is required !") && "outline-designColor"} contactInput`}
+                                        className={`${error == "Name is required !" && "outline-designColor"
+                                            } contactInput`}
                                         type="text"
                                         id="name"
                                     />
                                 </div>
-                                <div className="w-1/2 flex flex-col">
+                                <div className="w-full lgl:w-1/2 flex flex-col">
                                     <label className="contactLable mb-5" htmlFor="tel">
                                         Phone number
                                     </label>
@@ -177,7 +175,7 @@ const Contact = () => {
                             </div>
                             <button
                                 onClick={handleSubmit}
-                                className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                                className="w-full h-12 mt-5 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
                             >
                                 Send Message
                             </button>
@@ -198,25 +196,25 @@ export default Contact;
 
 {
     /* <form className="w-full flex flex-col space-y-reverse">
-                        <div className="flex flex-col space-y-1">
-                            <label htmlFor="name">Your name</label>
-                            <input type="text" id="name" className="p-1" />
-                        </div>
-                        <div className="flex flex-col space-y-1">
-                            <label htmlFor="tel">Phone number</label>
-                            <input type="tel" id="tel" className="p-1" />
-                        </div>
-                        <div className="flex flex-col space-y-1">
-                            <label htmlFor="email">Email</label>
-                            <input type="mail" className="p-1" />
-                        </div>
-                        <div className="flex flex-col space-y-1">
-                            <label htmlFor="subject">subject</label>
-                            <input type="text" className="p-1" />
-                        </div>
-                        <div className="flex flex-col space-y-1">
-                            <label htmlFor="message">message</label>
-                            <textarea name="message" id="message" className="p-1" />
-                        </div>
-                    </form> */
+                          <div className="flex flex-col space-y-1">
+                              <label htmlFor="name">Your name</label>
+                              <input type="text" id="name" className="p-1" />
+                          </div>
+                          <div className="flex flex-col space-y-1">
+                              <label htmlFor="tel">Phone number</label>
+                              <input type="tel" id="tel" className="p-1" />
+                          </div>
+                          <div className="flex flex-col space-y-1">
+                              <label htmlFor="email">Email</label>
+                              <input type="mail" className="p-1" />
+                          </div>
+                          <div className="flex flex-col space-y-1">
+                              <label htmlFor="subject">subject</label>
+                              <input type="text" className="p-1" />
+                          </div>
+                          <div className="flex flex-col space-y-1">
+                              <label htmlFor="message">message</label>
+                              <textarea name="message" id="message" className="p-1" />
+                          </div>
+                      </form> */
 }
