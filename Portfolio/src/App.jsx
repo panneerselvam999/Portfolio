@@ -11,7 +11,8 @@ import FooterBottom from "./Components/Footer/FooterBottom";
 
 const App = () => {
   return (
-    <div className="w-screen h-auto  text-lightText bg-bodyColor -translate-x-2">
+    // <div className="w-screen h-auto  text-lightText bg-bodyColor -translate-x-2">
+    <div className="w-[100%] h-auto  text-lightText bg-bodyColor ">
       <div className="max-w-screen-xl mx-auto px-4 m-0 ">
         <Navbar />
         <Banner />

@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Sidebar = ({ showMenu, setShowMenu }) => {
     return (
         <div
-            className={`absolute top-0 -left-4 h-screen w-[80%] bg-gray-900 p-4 overflow-scroll duration-300 transform ${showMenu ? "translate-x-0" : "-translate-x-full -left-2"
+            className={`scrollbar-hide  absolute top-0 -left-4 lgl:-left-14  h-screen w-[80%] bg-gray-900 p-4 overflow-scroll duration-300 transform ${showMenu ? "translate-x-0" : "-translate-x-full -left-2"
                 }
              `}
         >
@@ -18,7 +18,7 @@ const Sidebar = ({ showMenu, setShowMenu }) => {
             </span>
 
             <div>
-                <ul className=" flex flex-col items-start gap-6 lg:gap-10  mt-16">
+                <ul className=" flex flex-col items-start gap-6 lg:gap-10  mt-16 ps-6">
                     {navLinksData.map(({ _id, title, link }) => (
                         <li
                             key={_id}

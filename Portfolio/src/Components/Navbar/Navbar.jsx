@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor  mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full h-20 sticky top-0 left-0 z-50 bg-bodyColor  mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
         <img src={logo} alt="Logo" className="w-24 md:w-auto" />
       </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
           } */}
 
           <div>
-            <Sidebar showMenu={showMenu} setShowMenu={setShowMenu}/>
+            <Sidebar showMenu={showMenu} setShowMenu={setShowMenu} />
           </div>
         </div>
       </div>
