@@ -11,8 +11,8 @@ export default {
         mdl: "768px",
         lg: "960px",
         lgl: "1024px",
-        xl: "1280px", 
-      },  
+        xl: "1280px",
+      },
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
@@ -22,6 +22,7 @@ export default {
         lightText: "#c4cfde",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
         designColor: "#ff014f",
+        glass: "rgba(0, 0, 0, 0.6)",
       },
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
