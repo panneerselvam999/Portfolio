@@ -4,10 +4,10 @@ import Education from "./Education";
 import ProfessionalSkills from "./ProfessionalSkills";
 
 const Resume = () => {
-  const [activeSection, setActiveSection] = useState("Web Development Skills");
+  const [activeSection, setActiveSection] = useState("Skills");
 
   const sections = [
-    { name: "Web Development Skills", component: <ProfessionalSkills /> },
+    { name: "Skills", component: <ProfessionalSkills /> },
     { name: "Education", component: <Education /> },
 
   ];
