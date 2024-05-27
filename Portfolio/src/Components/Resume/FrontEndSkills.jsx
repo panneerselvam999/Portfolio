@@ -11,7 +11,7 @@ const FrontEndSkills = () => {
             <div className=" py-4 lgl:py-12 font-titleFont flex flex-col items-center justify-center">
                 <h2 className=" text-3xl md:text-4xl font-bold">Frontend Languages</h2>
 
-                <div className="  flex gap-6 mt-10 ">
+                <div className="  flex flex-wrap items-center justify-center gap-6 mt-10 ">
                     <span className="skillsIcon">  <FaHtml5 /></span>
                     <span className="skillsIcon">  <DiCss3 /></span>
                     <span className="skillsIcon">  <RiJavascriptFill /></span>
