@@ -4,7 +4,7 @@ import Banner from "./Components/Banner/Banner";
 import Features from "./Components/Features/Features";
 import Projects from "./Components/Project/Projects";
 import Resume from "./Components/Resume/Resume";
-import Testimonial from "./Components/Testimonial/Testimonial";
+// import Testimonial from "./Components/Testimonial/Testimonial";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import FooterBottom from "./Components/Footer/FooterBottom";
@@ -16,10 +16,10 @@ const App = () => {
       <div className="max-w-screen-xl mx-auto px-4 m-0 ">
         <Navbar />
         <Banner />
-        <Features />
+        {/* <Features /> */}
         <Projects />
         <Resume />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <Contact />
         <Footer />
         <FooterBottom />

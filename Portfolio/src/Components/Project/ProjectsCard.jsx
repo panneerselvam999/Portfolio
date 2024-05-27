@@ -12,7 +12,6 @@ import {
 const ProjectCard = ({ title, des, img, git, live }) => {
 
 
-  console.log("project card component");
   return (
 
     

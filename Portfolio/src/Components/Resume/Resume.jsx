@@ -2,18 +2,14 @@ import React, { useState } from "react";
 import Title from "../Layout/Title";
 import Education from "./Education";
 import ProfessionalSkills from "./ProfessionalSkills";
-import Experience from "./Experience";
-import Achievements from "./Achievements";
 
 const Resume = () => {
-  const [activeSection, setActiveSection] = useState("Education");
+  const [activeSection, setActiveSection] = useState("Web Development Skills");
 
   const sections = [
+    { name: "Web Development Skills", component: <ProfessionalSkills /> },
     { name: "Education", component: <Education /> },
 
-    { name: "ProfessionalSkills", component: <ProfessionalSkills /> },
-    { name: "Experience", component: <Experience /> },
-    { name: "Achievements", component: <Achievements /> },
   ];
 
   return (
@@ -22,7 +18,7 @@ const Resume = () => {
         <Title title={"Front-end Developer"} des={"My Resume"} />
       </div>
       <div>
-        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="grid grid-cols-1 md:grid-cols-2 ">
           {sections.map((section) => (
             <li
               key={section.name}
