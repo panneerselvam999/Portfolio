@@ -55,7 +55,7 @@ const Footer = () => {
                     ))}
                 </ul>
             </div>
-            <div className="w-full h-full overflow-y-hidden">
+            {/* <div className="w-full h-full overflow-y-hidden">
                 <ul className="flex flex-col  gap-2">
                     <h3 className="text-xl uppercase text-designColor tracking-wide">
                         RESOURCES
@@ -79,8 +79,8 @@ const Footer = () => {
                         </li>
                     ))}
                 </ul>
-            </div>
-            <div className="w-full h-full overflow-y-hidden">
+            </div> */}
+            {/* <div className="w-full h-full overflow-y-hidden">
                 <ul className="flex flex-col  gap-2">
                     <h3 className="text-xl uppercase text-designColor tracking-wide">
                         RESOURCES
@@ -104,7 +104,7 @@ const Footer = () => {
                         </li>
                     ))}
                 </ul>
-            </div>
+            </div> */}
         </footer>
     );
 };

@@ -1,7 +1,8 @@
 import React from "react";
-// import { VscVscodeInsiders } from "react-icons/vsc";
-// import { TbBrandVscode } from "react-icons/tb";
-import { FaCode } from "react-icons/fa";
+import { Tooltip } from "react-tooltip";
+import { FaNpm, FaGithub, FaChrome } from "react-icons/fa";
+import { TbBrandVscode } from "react-icons/tb";
+
 
 const SkillTools = () => {
     return (
@@ -10,11 +11,39 @@ const SkillTools = () => {
                 <h2 className=" mx-auto text-3xl md:text-4xl font-bold ">Tools</h2>
 
                 <div className="  flex mt-10 ">
-                    <span className="skillsIcon">
-                        {/* <VscVscodeInsiders /> */}
-                        {/* <TbBrandVscode /> */}
-                        <FaCode />
-                    </span>
+
+
+                    <div className="flex flex-wrap items-center justify-center gap-6 mt-10">
+                        <span className="skillsIcon" id="vs-code">
+                            <TbBrandVscode />
+                        </span>
+                        <Tooltip
+                            anchorSelect="#vs-code"
+                            content="VS - Code"
+                        />
+                        <span className="skillsIcon" id="npm">
+                            <FaNpm />
+                        </span>
+                        <Tooltip
+                            anchorSelect="#npm"
+                            content="Node Package Manager"
+                        />
+                        <span className="skillsIcon" id="github">
+                            <FaGithub />
+                        </span>
+                        <Tooltip
+                            anchorSelect="#github"
+                            content="GitHub"
+                        />
+                        <span className="skillsIcon" id="chrome-dev">
+                            <FaChrome />
+                        </span>
+                        <Tooltip
+                            anchorSelect="#chrome-dev"
+                            content="Chrome Developer Tools"
+                        />
+                    </div>
+
                 </div>
             </div>
         </div>
