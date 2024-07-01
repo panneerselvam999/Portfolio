@@ -2,44 +2,51 @@
   "projectsData": [
     {
       "id": 1,
-      "img": "Gilber",
+      "img": "projects/Gilber.png",
       "title": "Gilber - Portfolio",
-      "des": "home",
-      "git":"https://github.com/panneerselvam999/Gilber",
+      "des": "",
+      "git": "https://github.com/panneerselvam999/Gilber",
       "live": "https://panneerselvam999.github.io/Gilber/index.html"
     },
     {
       "id": 2,
-      "img": "Edusity",
+      "img": "projects/Edusity.png",
       "title": "Educity",
-      "des": "features",
-      "git":"https://github.com/panneerselvam999/Profile-react",
+      "des": "",
+      "git": "https://github.com/panneerselvam999/Profile-react",
       "live": "https://profile-react-panneer-selvam-ns-projects.vercel.app/"
     },
     {
       "id": 3,
-      "img": "Alfa",
-      "title": "Alfa Service Center",
-      "des": "projects",
-      "git":"",
-      "live": "https://alfaservicecenter.com/"
+      "img": "projects/mini.png",
+      "title": "React Mini Projects",
+      "des": "",
+      "git": "https://github.com/panneerselvam999/react-tailwind",
+      "live": "https://react-mini-projects-blue.vercel.app/"
     },
     {
       "id": 4,
-      "img": "LogReg",
-      "title": "Login and Registration",
-      "des": "resume",
-      "git":"https://github.com/panneerselvam999/REACT-Login-Register",
-      "live": ""
+      "img": "projects/Alfa.png",
+      "title": "Alfa Service Center",
+      "des": "",
+      "git": "",
+      "live": "https://alfaservicecenter.com/"
     },
     {
       "id": 5,
-      "img": "aturister",
+      "img": "projects/Login-Reg.png",
+      "title": "Login and Registration",
+      "des": "(On processing)",
+      "git": "https://github.com/panneerselvam999/REACT-Login-Register",
+      "live": ""
+    },
+    {
+      "id": 6,
+      "img": "projects/aturister.png",
       "title": "American Tourister",
-      "des": "testimonial",
-      "git":"https://github.com/panneerselvam999/American-Tourister",
+      "des": "",
+      "git": "https://github.com/panneerselvam999/American-Tourister",
       "live": "https://panneerselvam999.github.io/American-Tourister/"
     }
-    
   ]
 }

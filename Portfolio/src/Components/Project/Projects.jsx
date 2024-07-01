@@ -52,23 +52,24 @@
 import React from "react";
 import Title from "../Layout/Title.jsx";
 import ProjectsCard from "./ProjectsCard.jsx";
-import {
-    Gilber,
-    Alfa,
-    aturister,
-    Edusity,
-    LogReg,
-} from "../../assets/index.js";
+// import {
+//     Gilber,
+//     Alfa,
+//     aturister,
+//     Edusity,
+//     LogReg,
+// } from "../../assets/index.js";
 import projects from "../../Constants/projects.json";
 
 const Project = () => {
-    const imageMap = {
-        Gilber: Gilber,
-        Alfa: Alfa,
-        aturister: aturister,
-        Edusity: Edusity,
-        LogReg: LogReg
-    };
+    // const imageMap = {
+    //     Gilber: Gilber,
+    //     Alfa: Alfa,
+    //     aturister: aturister,
+    //     Edusity: Edusity,
+    //     LogReg: LogReg,
+        
+    // };
     return (
         <section
             id="projects"
@@ -83,7 +84,7 @@ const Project = () => {
                             key={project.id}
                             title={project.title}
                             des={project.des}
-                            img={imageMap[project.img]}
+                            img={project.img}
                             git={project.git}
                             live={project.live}
                         />
