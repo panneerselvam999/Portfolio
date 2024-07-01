@@ -2,6 +2,10 @@ import React from 'react'
 import { FaHtml5, FaBootstrap, FaReact } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
+import { BsFiletypeJson } from "react-icons/bs";
+import { TbApi } from "react-icons/tb";
+
+
 
 
 
@@ -16,6 +20,8 @@ const FrontEndSkills = () => {
                     <span className="skillsIcon">  <DiCss3 /></span>
                     <span className="skillsIcon">  <RiJavascriptFill /></span>
                     <span className="skillsIcon">  <FaBootstrap /></span>
+                    <span className="skillsIcon"> <BsFiletypeJson /></span>
+                    <span className="skillsIcon"> <TbApi /></span>
                     <span className="skillsIcon">  <RiTailwindCssFill /></span>
                     <span className="skillsIcon">  <FaReact /></span>
                 </div>

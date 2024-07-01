@@ -9,7 +9,6 @@ const Resume = () => {
   const sections = [
     { name: "Skills", component: <ProfessionalSkills /> },
     { name: "Education", component: <Education /> },
-
   ];
 
   return (
@@ -23,8 +22,8 @@ const Resume = () => {
             <li
               key={section.name}
               className={` ${section.name === activeSection
-                ? "border-designColor"
-                : "border-transparent"
+                  ? "border-designColor"
+                  : "border-transparent"
                 }  resumeLi`}
               onClick={() => setActiveSection(section.name)}
             >

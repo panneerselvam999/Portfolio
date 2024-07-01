@@ -1,12 +1,15 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaTwitter, FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiReact } from "react-icons/si";
 import { DiResponsive } from "react-icons/di";
+import { IoIosContact } from "react-icons/io";
+import { Link } from "react-scroll";
+
 
 
 const LeftBanner = () => {
     const [typeText] = useTypewriter({
-        words: ["Professional Coder.", "Front-end Developer." ,"React js Developer", "Web Developer."],
+        words: ["Professional Coder.", "Front-end Developer.", "React js Developer", "Web Developer."],
         loop: true,
         typeSpeed: 30,
         deleteSpeed: 20,
@@ -45,6 +48,20 @@ const LeftBanner = () => {
                                 <a href="https://www.linkedin.com/in/npspanneerselvam/" target="_blank" rel="noopener noreferrer">
                                     <FaLinkedinIn />
                                 </a>
+                            </span>
+                            <span className="bannerIcon">
+                                <Link
+                                    activeClass="active"
+                                    to={"contact"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={500}
+                                >
+                                    <IoIosContact />
+                                </Link>
+                                {/* <a href="https://www.linkedin.com/in/npspanneerselvam/" target="_blank" rel="noopener noreferrer">
+                                </a> */}
                             </span>
                         </div>
                     </div>

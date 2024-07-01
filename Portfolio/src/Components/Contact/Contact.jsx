@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import Title from "../Layout/Title";
 import { contactImg } from "../../assets";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import DownloadResumeButton from "../downloadResume/DownloadResume";
 
 const Contact = () => {
     const [error, setError] = useState("");
@@ -90,7 +91,7 @@ const Contact = () => {
             id="contact"
             className="w-full py-20 border-b-[1px] border-b-black"
         >
-            <Title title={"Contact"} des={"Contact with me"} />
+            <Title title={"Hier me"} des={"Contact with me"} />
 
             <div className="w-full ">
                 <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
@@ -105,10 +106,10 @@ const Contact = () => {
                             <p className="text-lg font-normal to-gray-400">
                                 React JS - Developer
                             </p>
-                            <p className="text-base text-gray-400 tracking-wide">
+                            {/* <p className="text-base text-gray-400 tracking-wide">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Dignissimos, corrupti illo? Dignissimos officiis sed ipsam.
-                            </p>
+                            </p> */}
                             <p className="text-base text-gray-400 flex items-center gap-2">
                                 Phone: <span className="text-lightText">+91 936-161-3554</span>
                             </p>
@@ -118,6 +119,9 @@ const Contact = () => {
                                     npspanneerselvam999@gmail.com
                                 </span>
                             </p>
+                        </div>
+                        <div>
+                            <DownloadResumeButton />
                         </div>
                         <div>
                             <p>FIND IN ME</p>
