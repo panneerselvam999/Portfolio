@@ -6,7 +6,7 @@ const DownloadResumeButton = () => {
         const resumeUrl = "./resume/ps-resume.pdf.pdf";
         const link = document.createElement("a");
         link.href = resumeUrl;
-        link.download = "PANNEER SELVAM - Frontend Developer.pdf.pdf"; // The name of the downloaded file
+        link.download = "PANNEER SELVAM - Frontend Developer.pdf"; // The name of the downloaded file
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

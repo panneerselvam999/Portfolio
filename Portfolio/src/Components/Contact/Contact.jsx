@@ -81,7 +81,9 @@ const Contact = () => {
                 }
             } catch (error) {
                 console.error("Submission error:", error);
-                setError("An error occurred while submitting the form. Please try again.");
+                setError(
+                    "An error occurred while submitting the form. Please try again."
+                );
             }
         }
     };
@@ -121,7 +123,14 @@ const Contact = () => {
                             </p>
                         </div>
                         <div>
-                            <DownloadResumeButton />
+                            {/* <DownloadResumeButton /> */}
+                            <a
+                                href="./resume/ps-resume.pdf"
+                                download="PANNEER SELVAM - Frontend Developer.pdf"
+                                class="bannerIcon w-fit px-3"
+                            >
+                                Download Resume
+                            </a>
                         </div>
                         <div>
                             <p>FIND IN ME</p>
@@ -165,7 +174,8 @@ const Contact = () => {
                                     <input
                                         ref={telRef}
                                         name="tel"
-                                        className={`${error === "A valid phone number is required!" && "outline-designColor"
+                                        className={`${error === "A valid phone number is required!" &&
+                                            "outline-designColor"
                                             } contactInput`}
                                         type="tel"
                                         id="tel"
@@ -179,7 +189,8 @@ const Contact = () => {
                                 <input
                                     ref={emailRef}
                                     name="email"
-                                    className={`${error === "A valid email address is required!" && "outline-designColor"
+                                    className={`${error === "A valid email address is required!" &&
+                                        "outline-designColor"
                                         } contactInput`}
                                     type="email"
                                     id="email"
@@ -210,9 +221,7 @@ const Contact = () => {
                                     id="message"
                                 />
                             </div>
-                            <button
-                                className="w-full h-12 mt-5 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
-                            >
+                            <button className="w-full h-12 mt-5 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
                                 Send Message
                             </button>
                             {error && (
