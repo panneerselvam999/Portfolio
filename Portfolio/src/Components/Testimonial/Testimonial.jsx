@@ -97,8 +97,6 @@ const Testimonial = () => {
 
             <div className="max-w-6xl mx-auto">
                 <Slider {...settings}>
-
-
                     <div className="w-full ">
                         <div className="w-full h-auto flex flex-col lg:flex-row justify-between">
                             <div className="w-full  lg:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-8 rounded-lg  flex flex-col md:flex-row lg:flex-col gap-8 justify-center md:justify-start lg:justify-center">
@@ -251,9 +249,6 @@ const Testimonial = () => {
                             </div>
                         </div>
                     </div>
-
-
-
                 </Slider>
             </div>
         </section>

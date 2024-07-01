@@ -1,4 +1,4 @@
-import logo from "./images/logo.png";
+import logo from "./images/logo-ps.png";
 import bannerImg from "./images/bannerImg.png";
 import Gilber from "./images/projects/Gilber.png";
 import Alfa from "./images/projects/Alfa.png";
@@ -11,8 +11,10 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import vsCode from "./icons/vs-code.svg"
 import vsCode2 from "./icons/vsCode.svg"
+import panneer from "./images/panneer.png"
 
 export {
+    panneer,
     logo,
     bannerImg,
     Gilber,

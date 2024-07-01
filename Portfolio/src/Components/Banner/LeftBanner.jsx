@@ -6,7 +6,7 @@ import { DiResponsive } from "react-icons/di";
 
 const LeftBanner = () => {
     const [typeText] = useTypewriter({
-        words: ["Professional Coder.", "Front-end Developer.", "Web Developer."],
+        words: ["Professional Coder.", "Front-end Developer." ,"React js Developer", "Web Developer."],
         loop: true,
         typeSpeed: 30,
         deleteSpeed: 20,
@@ -26,10 +26,7 @@ const LeftBanner = () => {
                         <Cursor cursorColor="#ff014f" />
                     </h2>
                     <p className="text-base font-bodyFont leading-6 tracking-wide">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-                        quos ducimus eos eveniet saepe explicabo magni. Error officia dolore
-                        dolor saepe eos nulla recusandae inventore ipsam, corporis cumque
-                        perferendis aliquam.
+                        I'm a frontend developer skilled in <span className=" text-designColor">React.js</span>, Tailwind CSS, and more. I create dynamic, responsive web applications, focusing on performance and user experience. Passionate about coding and continuously learning, I thrive on innovative solutions.
                     </p>
                 </div>
 
