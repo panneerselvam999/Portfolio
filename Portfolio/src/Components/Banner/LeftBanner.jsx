@@ -17,7 +17,7 @@ const LeftBanner = () => {
     });
     return (
         <>
-            <div className="w-full  lgl:w-1/2 flex flex-col gap-20">
+            <div className="w-full  lgl:w-1/2 flex flex-col gap-6">
                 <div className=" flex flex-col gap-5">
                     <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
                     <h1 className="text-6xl font-bold text-white ">
@@ -31,6 +31,15 @@ const LeftBanner = () => {
                     <p className="text-base font-bodyFont leading-6 tracking-wide">
                         I'm a frontend developer skilled in <span className=" text-designColor">React.js</span>, Tailwind CSS, and more. I create dynamic, responsive web applications, focusing on performance and user experience. Passionate about coding and continuously learning, I thrive on innovative solutions.
                     </p>
+                    <h3>
+                        <a
+                            href="./resume/ps-resume.pdf"
+                            download="PANNEER SELVAM - Frontend Developer.pdf"
+                            class="bannerIcon w-fit px-3"
+                        >
+                            Download Resume
+                        </a>
+                    </h3>
                 </div>
 
                 <div className="flex flex-col gap-6 md:flex-row md:justify-start md:gap-20 lgl:flex-col lgl:gap-10 xl:flex-row justify-between">

@@ -113,13 +113,18 @@ const Contact = () => {
                                 Dignissimos, corrupti illo? Dignissimos officiis sed ipsam.
                             </p> */}
                             <p className="text-base text-gray-400 flex items-center gap-2">
-                                Phone: <span className="text-lightText">+91 936-161-3554</span>
+                                <a href="https://wa.me/9361613554?text=Hello%2C%20I%20would%20like%20to%20contact%20you">
+                                    Phone:{" "}
+                                    <span className="text-lightText">+91 936-161-3554</span>
+                                </a>
                             </p>
                             <p className="text-base text-gray-400 flex items-center gap-2">
-                                Email:{" "}
-                                <span className="text-lightText">
-                                    npspanneerselvam999@gmail.com
-                                </span>
+                                <a href="mailto:npspanneerselvam999@gmail.com?subject=Contact%20Us&body=Hello,">
+                                    Email: {" "}
+                                    <span className="text-lightText">
+                                        npspanneerselvam999@gmail.com
+                                    </span>
+                                </a>
                             </p>
                         </div>
                         <div>
@@ -127,7 +132,7 @@ const Contact = () => {
                             <a
                                 href="./resume/ps-resume.pdf"
                                 download="PANNEER SELVAM - Frontend Developer.pdf"
-                                class="bannerIcon w-fit px-3"
+                                className="bannerIcon w-fit px-3"
                             >
                                 Download Resume
                             </a>

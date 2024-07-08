@@ -1,22 +1,23 @@
 export const navLinksData = [
     {
-        _id: 1001,
+        id: 1,
         title: "Home",
         link: "home",
     },
     {
-        _id: 1003,
+        id: 2,
         title: "Projects",
         link: "projects",
     },
     {
-        _id: 1004,
+        id: 3,
         title: "Resume",
         link: "resume",
     },
     {
-        _id: 1006,
+        id: 4,
         title: "Contact",
         link: "contact",
     },
+   
 ];

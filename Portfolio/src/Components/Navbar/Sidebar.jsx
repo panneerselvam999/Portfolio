@@ -19,9 +19,9 @@ const Sidebar = ({ showMenu, setShowMenu }) => {
 
             <div>
                 <ul className=" flex flex-col items-start gap-6 lg:gap-10  mt-16 ps-6">
-                    {navLinksData.map(({ _id, title, link }) => (
+                    {navLinksData.map(({ id, title, link }) => (
                         <li
-                            key={_id}
+                            key={id}
                             className=" text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300 "
                         >
                             <Link

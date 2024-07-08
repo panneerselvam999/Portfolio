@@ -35,9 +35,9 @@ const Footer = () => {
                     <h3 className="text-xl uppercase text-designColor tracking-wide">
                         QUICK LINK
                     </h3>
-                    {navLinksData.map(({ _id, title, link }) => (
+                    {navLinksData.map(({ id, title, link }) => (
                         <li
-                            key={_id}
+                            key={id}
                             className="group text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300 "
                         >
                             <Link
