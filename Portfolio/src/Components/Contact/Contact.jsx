@@ -96,7 +96,7 @@ const Contact = () => {
             <Title title={"Hier me"} des={"Contact with me"} />
 
             <div className="w-full ">
-                <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+                <div className="w-full h-auto flex flex-col gap-6 lgl:flex-row justify-between">
                     <div className=" w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
                         <img
                             className="w-full h-64 object-cover rounded-lg mb-3"
