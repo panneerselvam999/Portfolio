@@ -4,16 +4,19 @@
             "id": 1,
             "title": "Under Graduation",
             "subTitle": "Vysya College",
-            "result": "7.2 CGPA"        },
+            "result": "7.2 CGPA"
+        },
         {
-            "id": 1,
+            "id": 2,
             "title": "Higher Secondary School",
             "subTitle": "Sri Ramakrishna Saradha HSC",
-            "result": "55.5%"        },
+            "result": "55.5%"
+        },
         {
-            "id": 1,
+            "id": 3,
             "title": "Secondary School",
             "subTitle": "Sri Ramakrishna Saradha HSC",
-            "result": "90.2%"        }
+            "result": "90.2%"
+        }
     ]
 }

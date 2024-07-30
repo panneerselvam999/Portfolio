@@ -73,7 +73,7 @@ const Contact = () => {
                 const data = await response.json();
 
                 if (data.success) {
-                    setError("Form Submitted Successfully");
+                    setError("Mail send successfully");
                     e.target.reset();
                 } else {
                     console.log("Error", data);
@@ -106,7 +106,7 @@ const Contact = () => {
                         <div className="flex flex-col gap-4">
                             <h3 className="text-3xl font-bold text-white">Panneer selvam</h3>
                             <p className="text-lg font-normal to-gray-400">
-                                React JS - Developer
+                                Frontend Developer
                             </p>
                             {/* <p className="text-base text-gray-400 tracking-wide">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.

@@ -17,9 +17,21 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
                         <p>{subTitle}</p>
                     </div>
                     <div>
-                        <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
-                            {result}
-                        </p>
+                        {typeof result !== "boolean" ? (
+                            <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
+                                {result}
+                            </p>
+                        ) : (
+                            <h3>
+                                <a
+                                    href="https://drive.google.com/file/d/1HlAAUboMyj0yrGVRMUElz-UmL9dkxsfi/view"
+                                    target="_blank"
+                                    className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium"
+                                >
+                                    View Certificate
+                                </a>
+                            </h3>
+                        )}
                     </div>
                 </div>
                 <div>
