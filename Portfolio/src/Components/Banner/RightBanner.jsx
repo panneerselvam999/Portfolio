@@ -1,5 +1,5 @@
 import React from "react";
-import { bannerImg, panneer } from "../../assets/index.js";
+import {  panneer } from "../../assets/index.js";
 
 const RightBanner = () => {
   return (

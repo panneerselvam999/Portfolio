@@ -1,6 +1,14 @@
 {
   "projectsData": [
     {
+      "id": 7,
+      "img": "projects/asana.png",
+      "title": "Asana",
+      "des": "",
+      "git": "https://github.com/panneerselvam999/asana",
+      "live": "https://asana-indol.vercel.app/"
+    },
+    {
       "id": 1,
       "img": "projects/Gilber.png",
       "title": "Gilber - Portfolio",
@@ -9,12 +17,28 @@
       "live": "https://panneerselvam999.github.io/Gilber/index.html"
     },
     {
+      "id": 8,
+      "img": "projects/C-Context-api.png",
+      "title": "Crud with Context API",
+      "des": "",
+      "git": "https://github.com/panneerselvam999/Context-API",
+      "live": "https://context-api-henna.vercel.app/"
+    },
+    {
       "id": 2,
       "img": "projects/Edusity.png",
       "title": "Educity",
       "des": "",
       "git": "https://github.com/panneerselvam999/Profile-react",
       "live": "https://profile-react-panneer-selvam-ns-projects.vercel.app/"
+    },
+    {
+      "id": 9,
+      "img": "projects/C-Redux.png",
+      "title": "Crud with Redux Toolkit",
+      "des": "",
+      "git": "https://github.com/panneerselvam999/Redux-crud",
+      "live": "https://redux-crud-psi.vercel.app/"
     },
     {
       "id": 3,

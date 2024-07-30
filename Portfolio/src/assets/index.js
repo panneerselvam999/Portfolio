@@ -1,5 +1,4 @@
 import logo from "./images/logo-ps.png";
-import bannerImg from "./images/bannerImg.png";
 // import Gilber from "./images/projects/Gilber.png";
 // import Alfa from "./images/projects/Alfa.png";
 // import aturister from "./images/projects/aturister.png";
@@ -18,7 +17,6 @@ export {
     
     panneer,
     logo,
-    bannerImg,
     // Gilber,
     // Alfa,
     // aturister,
