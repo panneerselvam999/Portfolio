@@ -35,7 +35,7 @@ const LeftBanner = () => {
                         <a
                             href="./resume/ps-resume.pdf"
                             download="PANNEER SELVAM - Frontend Developer.pdf"
-                            class="bannerIcon w-fit px-3"
+                            className="bannerIcon w-fit px-3"
                         >
                             Download Resume
                         </a>
