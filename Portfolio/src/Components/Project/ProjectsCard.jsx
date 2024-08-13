@@ -81,8 +81,10 @@ const ProjectCard = ({ title, des, img, git, live }) => {
                     {Array.isArray(des) ? (
                         des.map((description, index) => (
                             <div key={index} className="flex">
-                                <span className=" text-red-500">#</span>
-                                <p className=" cursor-pointer">{description}</p>
+                                <span className="text-designColor">#</span>
+                                <p className=" cursor-pointer hover:text-designColor">
+                                    {description}
+                                </p>
                             </div>
                         ))
                     ) : (
