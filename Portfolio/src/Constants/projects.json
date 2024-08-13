@@ -1,76 +1,114 @@
 {
-  "projectsData": [
-    {
-      "id": 7,
-      "img": "projects/asana.png",
-      "title": "Asana",
-      "des": "",
-      "git": "https://github.com/panneerselvam999/asana",
-      "live": "https://asana-indol.vercel.app/"
-    },
-    {
-      "id": 1,
-      "img": "projects/Gilber.png",
-      "title": "Gilber - Portfolio",
-      "des": "",
-      "git": "https://github.com/panneerselvam999/Gilber",
-      "live": "https://panneerselvam999.github.io/Gilber/index.html"
-    },
-    {
-      "id": 8,
-      "img": "projects/C-Context-api.png",
-      "title": "Crud with Context API",
-      "des": "",
-      "git": "https://github.com/panneerselvam999/Context-API",
-      "live": "https://context-api-henna.vercel.app/"
-    },
-    {
-      "id": 2,
-      "img": "projects/Edusity.png",
-      "title": "Educity",
-      "des": "",
-      "git": "https://github.com/panneerselvam999/Profile-react",
-      "live": "https://profile-react-panneer-selvam-ns-projects.vercel.app/"
-    },
-    {
-      "id": 9,
-      "img": "projects/C-Redux.png",
-      "title": "Crud with Redux Toolkit",
-      "des": "",
-      "git": "https://github.com/panneerselvam999/Redux-crud",
-      "live": "https://redux-crud-psi.vercel.app/"
-    },
-    {
-      "id": 3,
-      "img": "projects/mini.png",
-      "title": "React Mini Projects",
-      "des": "",
-      "git": "https://github.com/panneerselvam999/react-tailwind",
-      "live": "https://react-mini-projects-blue.vercel.app/"
-    },
-    {
-      "id": 4,
-      "img": "projects/Alfa.png",
-      "title": "Alfa Service Center",
-      "des": "",
-      "git": "",
-      "live": "https://alfaservicecenter.com/"
-    },
-    {
-      "id": 5,
-      "img": "projects/Login-Reg.png",
-      "title": "Login and Registration",
-      "des": "(On processing)",
-      "git": "https://github.com/panneerselvam999/REACT-Login-Register",
-      "live": ""
-    },
-    {
-      "id": 6,
-      "img": "projects/aturister.png",
-      "title": "American Tourister",
-      "des": "",
-      "git": "https://github.com/panneerselvam999/American-Tourister",
-      "live": "https://panneerselvam999.github.io/American-Tourister/"
-    }
-  ]
+    "projectsData": [
+        {
+            "id": 7,
+            "img": "projects/asana.png",
+            "title": "Asana",
+            "des": [
+                "React",
+                "Tailwind CSS",
+                "React-Silk",
+                "Responsive",
+                "Pixel Perfect"
+            ],
+            "git": "https://github.com/panneerselvam999/asana",
+            "live": "https://asana-indol.vercel.app/"
+        },
+        {
+            "id": 1,
+            "img": "projects/Gilber.png",
+            "title": "Gilber - Portfolio",
+            "des": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Formspree",
+                "Gsap"
+            ],
+            "git": "https://github.com/panneerselvam999/Gilber",
+            "live": "https://panneerselvam999.github.io/Gilber/index.html"
+        },
+        {
+            "id": 8,
+            "img": "projects/C-Context-api.png",
+            "title": "Crud with Context API",
+            "des": [
+                "React",
+                "Tailwind CSS",
+                "Contet API"
+            ],
+            "git": "https://github.com/panneerselvam999/Context-API",
+            "live": "https://context-api-henna.vercel.app/"
+        },
+        {
+            "id": 2,
+            "img": "projects/Edusity.png",
+            "title": "Educity",
+            "des": [
+                "React.js",
+                "CSS3",
+                "react-scroll"
+            ],
+            "git": "https://github.com/panneerselvam999/Profile-react",
+            "live": "https://profile-react-panneer-selvam-ns-projects.vercel.app/"
+        },
+        {
+            "id": 9,
+            "img": "projects/C-Redux.png",
+            "title": "Crud with Redux Toolkit",
+            "des": [
+                "React.js",
+                "Tailwind CSS",
+                "Redux Toolkit"
+            ],
+            "git": "https://github.com/panneerselvam999/Redux-crud",
+            "live": "https://redux-crud-psi.vercel.app/"
+        },
+        {
+            "id": 3,
+            "img": "projects/mini.png",
+            "title": "React Mini Projects",
+            "des": [
+                "BMI",
+                " Currency Converter",
+                "Password Generator",
+                "QrCodeGenerator",
+                " Carousel with React Slick"
+            ],
+            "git": "https://github.com/panneerselvam999/react-tailwind",
+            "live": "https://react-mini-projects-blue.vercel.app/"
+        },
+        {
+            "id": 4,
+            "img": "projects/Alfa.png",
+            "title": "Alfa Service Center",
+            "des": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "Bootstrap",
+                "Email.js"
+            ],
+            "git": "",
+            "live": "https://alfaservicecenter.com/"
+        },
+        {
+            "id": 5,
+            "img": "projects/Login-Reg.png",
+            "title": "Login and Registration",
+            "des": "(On processing)",
+            "git": "https://github.com/panneerselvam999/REACT-Login-Register",
+            "live": ""
+        },
+        {
+            "id": 6,
+            "img": "projects/aturister.png",
+            "title": "American Tourister",
+            "des": ["HTML", "CSS", "JavaScript", "jQuery", "Stripe.js"
+            ],
+            "git": "https://github.com/panneerselvam999/American-Tourister",
+            "live": "https://panneerselvam999.github.io/American-Tourister/"
+        }
+    ]
 }
