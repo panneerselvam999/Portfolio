@@ -10,6 +10,7 @@
                 "React",
                 "Tailwind CSS",
                 "Context - API",
+                "react-router-dom",
                 "Search & Sorting",
                 "State Management",
                 "E-commerce"
@@ -33,17 +34,18 @@
         },
         {
             "id": 3,
-            "img": "projects/Gilber.png",
-            "title": "Gilber - Portfolio",
+            "img": "projects/Edusity.png",
+            "title": "Educity",
             "des": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "Formspree",
-                "Gsap"
+                "React.js",
+                "CSS3",
+                "react-scroll",
+                "Responsive",
+                "Pixel Perfect"
             ],
-            "git": "https://github.com/panneerselvam999/Gilber",
-            "live": "https://panneerselvam999.github.io/Gilber/index.html"
+            "git": "https://github.com/panneerselvam999/Profile-react",
+            "live": "https://profile-react-panneer-selvam-ns-projects.vercel.app/"
+            
         },
         {
             "id": 4,
@@ -59,17 +61,18 @@
         },
         {
             "id": 5,
-            "img": "projects/Edusity.png",
-            "title": "Educity",
+            "img": "projects/Gilber.png",
+            "title": "Gilber - Portfolio",
             "des": [
-                "React.js",
-                "CSS3",
-                "react-scroll",
-                "Responsive",
-                "Pixel Perfect"
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Formspree",
+                "Gsap"
             ],
-            "git": "https://github.com/panneerselvam999/Profile-react",
-            "live": "https://profile-react-panneer-selvam-ns-projects.vercel.app/"
+            "git": "https://github.com/panneerselvam999/Gilber",
+            "live": "https://panneerselvam999.github.io/Gilber/index.html"
+           
         },
         {
             "id": 6,
