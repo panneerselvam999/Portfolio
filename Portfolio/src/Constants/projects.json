@@ -5,6 +5,8 @@
             "img": "projects/shoppingCart.png",
             "title": "Shopping Cart",
             "des": [
+                "Pleace open desktop",
+            
                 "React",
                 "Tailwind CSS",
                 "Context - API",
