@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const LeftBanner = () => {
     const [typeText] = useTypewriter({
-        words: ["Professional Coder.", "Front-end Developer.", "React js Developer", "Web Developer."],
+        words: ["Professional Coder.","MERN Stack Developer", "Front-end Developer.", "React js Developer", "Web Developer."],
         loop: true,
         typeSpeed: 30,
         deleteSpeed: 20,
@@ -28,9 +28,9 @@ const LeftBanner = () => {
                         {/* <Cursor cursorColor='red' /> */}
                         <Cursor cursorColor="#ff014f" />
                     </h2>
-                    <p className="text-base font-bodyFont leading-6 tracking-wide">
-                        I'm a frontend developer skilled in <span className=" text-designColor">React.js</span>, Tailwind CSS, and more. I create dynamic, responsive web applications, focusing on performance and user experience. Passionate about coding and continuously learning, I thrive on innovative solutions.
-                    </p>
+                        {/* <p className="text-base font-bodyFont leading-6 tracking-wide">
+                            I'm a frontend developer skilled in <span className=" text-designColor">React.js</span>, Tailwind CSS, and more. I create dynamic, responsive web applications, focusing on performance and user experience. Passionate about coding and continuously learning, I thrive on innovative solutions.
+                        </p> */}
                     <h3>
                         <a
                             href="./resume/ps-resume.pdf"
@@ -74,7 +74,7 @@ const LeftBanner = () => {
                             </span>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <h2 className="text-base uppercase font-titleFont mb-4">
                             best skill on
                         </h2>
@@ -89,7 +89,7 @@ const LeftBanner = () => {
                                 <DiResponsive />
                             </span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

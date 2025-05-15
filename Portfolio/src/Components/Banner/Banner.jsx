@@ -13,7 +13,7 @@ const Banner = () => {
     >
       <Suspense fallback={<div>Loading ....</div>}>
         <LeftBanner />
-        <RightBanner />
+        {/* <RightBanner /> */}
       </Suspense>
     </section>
   );

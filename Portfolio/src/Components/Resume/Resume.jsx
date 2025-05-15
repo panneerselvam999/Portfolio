@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Title from "../Layout/Title";
 import Education from "./Education";
 import ProfessionalSkills from "./ProfessionalSkills";
+import Experience from "./Experience";
 
 const Resume = () => {
   const [activeSection, setActiveSection] = useState("Skills");
@@ -14,7 +15,10 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div>
-        <Title title={"MERN Stack developer"} des={"My Resume"} />
+        <Title title={"MERN Stack developer"} des={"Resume"} />
+      </div>
+      <div>
+        <Experience />
       </div>
       <div>
         <ul className="grid grid-cols-1 md:grid-cols-2 ">

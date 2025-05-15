@@ -8,6 +8,7 @@ import Resume from "./Components/Resume/Resume";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import FooterBottom from "./Components/Footer/FooterBottom";
+import About from "./Components/About/About";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Navbar />
         <Banner />
         {/* <Features /> */}
+        <About />
         <Resume />
         <Projects />
         {/* <Testimonial /> */}
