@@ -14,7 +14,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div>
-        <Title title={"Front-end Developer"} des={"My Resume"} />
+        <Title title={"MERN Stack developer"} des={"My Resume"} />
       </div>
       <div>
         <ul className="grid grid-cols-1 md:grid-cols-2 ">

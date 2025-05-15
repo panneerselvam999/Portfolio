@@ -131,7 +131,7 @@ const Contact = () => {
                             {/* <DownloadResumeButton /> */}
                             <a
                                 href="./resume/ps-resume.pdf"
-                                download="PANNEER SELVAM - Frontend Developer.pdf"
+                                download="PANNEER SELVAM - MERN Stack Developer.pdf"
                                 className="bannerIcon w-fit px-3"
                             >
                                 Download Resume
