@@ -12,7 +12,7 @@ const Experience = () => {
         <div className="flex flex-col items-center justify-center my-10 ">
           <div className="w-full max-w-4xl">
             <div className="flex flex-col gap-6">
-              <div className="flex justify-between items-center">
+              <div className="md:flex justify-between items-center">
                 <h3 className="text-xl font-bold">
                   Front-End Developer Intern | Macincode, Salem
                 </h3>
@@ -53,7 +53,7 @@ const Experience = () => {
         <div className="flex flex-col items-center justify-center my-10 ">
           <div className="w-full max-w-4xl">
             <div className="flex flex-col gap-6">
-              <div className="flex justify-between items-center">
+              <div className=" md:flex justify-between items-center">
                 <h3 className="text-xl font-bold">
                   Front-End Developer Freelancers | Alfa Service Center,
                   Bangalore
